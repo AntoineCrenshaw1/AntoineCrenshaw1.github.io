@@ -1,0 +1,89 @@
+/*GENERAL CSS RULES*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  margin: 0; 
+  padding: 0;
+ /* background-size:100% 100%;*/
+}
+
+h1 {
+  text-shadow: 1px 1px black;
+}
+
+
+/*Content*/
+
+.navbar {
+  margin: 0 auto;
+}
+
+.Flexnav {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.Flexfooter {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-shadow: 1px 1px black;
+  font-size: 24px;
+}
+  
+
+button {
+  
+}
+
+.viewport {
+  text-shadow: 2px 1px black;
+}
+
+.landing-text {
+    height:100vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.landing-text img {
+  height: 100%;
+  width:auto;
+}
+
+/* LINKS */
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: green;
+}
+
+a:active {
+  color: yellow;
+}
+
+@media screen and (min-width: 576px){
+  body {
+    
+  }
+}

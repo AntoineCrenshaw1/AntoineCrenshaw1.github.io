@@ -1,0 +1,103 @@
+/*Line Height of 130% on all webpages*/
+* {
+  box-sizing: border-box;
+  --main-color: #FFEFD3;
+  --secondary-color: #FFC49B;
+  --accent-color: #294C60;
+  --heading-color: #001B2E;
+}
+
+body {
+  font-size: 18px;
+  margin: 0 auto;
+  line-height: 1.5;
+  padding: 0;
+  background-color: var(--main-color);
+}
+
+
+.logo {
+  display: inline-block;
+    max-height: 56px;
+    max-width: 225px;
+    padding: 8px 4px 8px 12px;
+    vertical-align: middle;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+}
+
+li {
+  cursor: pointer;
+}
+
+em {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+/*Background Cover */
+
+html,
+body,
+.cover {
+  height: 100%;
+}
+
+.cover-text .lead {
+    margin: 0;
+    color: white;
+    max-width: inherit; 
+    font-size: 30px;
+    font-style: italic;
+    background-color: black;
+}
+
+/* Experiment with fade in on scroll wheel up after structure is done by making an animation that changes opacity */
+.cover {
+    background: url('img/NEOGA_03B_BEDROOM_ANGLED_HALF.jpg') top left no-repeat;
+    background-size: cover;
+    display: table;
+    width: 100%;
+    padding: 0 30%;
+    box-shadow: inset 0 0 50px #000;
+    max-height: 95%;
+}
+.cover-text  {
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* Linear Gradient */
+
+section {
+  padding-bottom: 250px;
+}
+
+/* CARDS */
+.card {
+  width: 18rem;
+}
+
+/*FOOTER */
+ ul {
+  list-style-type: none;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 576px) {
+  h1 {
+  font-size: 30px;
+  }
+}
