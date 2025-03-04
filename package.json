@@ -1,0 +1,21 @@
+{
+  "name": "antoinecrenshaw1.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntoineCrenshaw1/AntoineCrenshaw1.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntoineCrenshaw1/AntoineCrenshaw1.github.io/issues"
+  },
+  "homepage": "https://github.com/AntoineCrenshaw1/AntoineCrenshaw1.github.io#readme",
+  "description": ""
+}
