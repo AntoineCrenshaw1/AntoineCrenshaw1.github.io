@@ -1,6 +1,8 @@
 Antoine Crenshaw's Web Development Portfolio
 
-Welcome to my live portfolio! This repository hosts the source code for my personal website, AntoineCrenshaw1.github.io, where I showcase my skills, projects, and experience as a web developer.
+Welcome to my live portfolio! 
+
+This repository hosts the source code for my personal website, AntoineCrenshaw1.github.io, where I showcase my skills, projects, and experience as a web developer.
 
 About
 This portfolio is a reflection of my journey in web development, featuring projects built with modern technologies and creative solutions. Whether you're a potential employer, collaborator, or just curious, feel free to explore my work and get in touch!
