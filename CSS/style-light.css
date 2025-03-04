@@ -1320,7 +1320,6 @@ header .header-mobile .header-toggle i {
     border-radius: 27px;
     color: #FBFBFB;
 }
-
 .portfolio-section {
     overflow: hidden;
 }
@@ -1433,18 +1432,89 @@ header .header-mobile .header-toggle i {
     content: "\f03e";
 }
 
-.portfolio-section .item a.video-link figure:after {
-    content: "\f03d";
+/* Description box styling */
+.project-description {
+    padding: 15px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-align: center;
 }
 
-.portfolio-section .item a.audio-link figure:after {
-    content: "\f03d";
+.project-description p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
 }
 
-.portfolio-section .item a.ajax-link figure:after {
-    content: "\f15c";
+.contact-section {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    text-align: center;
 }
 
+.section-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.page-heading {
+    margin-bottom: 40px;
+}
+
+.page-heading .icon {
+    display: inline-block;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.page-heading h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #222;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.contact-info {
+    font-family: 'Arial', sans-serif;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin: 0 0 20px;
+}
+
+.contact-info h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+    margin: 0 0 20px;
+}
+
+.contact-info h3 a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info h3 a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.contact-info .cta {
+    font-size: 18px;
+    font-weight: 600;
+    color: #444;
+    margin: 0;
+}
 /*============ 8. Blog Section ============*/
 
 .blog-section {
