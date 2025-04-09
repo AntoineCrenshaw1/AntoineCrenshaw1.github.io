@@ -1279,51 +1279,21 @@ header .header-mobile .header-toggle i {
     padding: 0 20px;
 }
 
-/* Enhanced Portfolio Styles */
 
-/* Project Card */
-.project-card {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    margin-bottom: 30px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.project-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-}
-
-/* Project Header */
-.project-header {
-    padding: 20px;
-    border-bottom: 1px solid #eee;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.project-header h3 {
-    margin: 0;
-    font-size: 22px;
-    color: #333;
-}
+/*============ 7. Portfolio Section ============*/
 
 /* Tech Stack Badges */
 .tech-stack {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    margin-top: 10px;
+    margin: 15px 0;
 }
 
 .tech-badge {
     background-color: #f0f0f0;
     color: #555;
-    padding: 4px 12px;
+    padding: 6px 12px;
     border-radius: 20px;
     font-size: 12px;
     font-weight: 600;
@@ -1333,199 +1303,110 @@ header .header-mobile .header-toggle i {
 .tech-badge:hover {
     background-color: #333;
     color: #fff;
+    transform: translateY(-2px);
 }
 
-/* Tabbed Interface */
-.project-tabs {
-    position: relative;
+/* Specific tech badges with custom colors */
+.tech-badge.mongodb {
+    background-color: #4DB33D;
+    color: white;
 }
 
-.tabs-nav {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background-color: #f8f8f8;
-    border-bottom: 1px solid #eee;
+.tech-badge.express {
+    background-color: #000000;
+    color: white;
 }
 
-.tabs-nav li {
-    padding: 12px 20px;
-    cursor: pointer;
-    transition: all 0.3s;
-    font-weight: 500;
+.tech-badge.react {
+    background-color: #61DAFB;
+    color: #282c34;
 }
 
-.tabs-nav li:hover {
-    background-color: #eee;
+.tech-badge.nodejs {
+    background-color: #339933;
+    color: white;
 }
 
-.tabs-nav li.active {
-    background-color: #fff;
-    border-bottom: 3px solid #007bff;
-    color: #007bff;
+.tech-badge.javascript {
+    background-color: #F7DF1E;
+    color: #000;
 }
 
-.tabs-content {
-    padding: 20px;
+.tech-badge.html {
+    background-color: #E34F26;
+    color: white;
 }
 
-.tab-content {
-    display: none;
-    animation: fadeIn 0.5s ease;
+.tech-badge.css {
+    background-color: #1572B6;
+    color: white;
 }
 
-.tab-content.active {
-    display: block;
+.tech-badge.typescript {
+    background-color: #3178C6;
+    color: white;
 }
 
-/* Features List */
-.feature-list {
-    padding-left: 20px;
+.tech-badge.nextjs {
+    background-color: #000000;
+    color: white;
 }
 
-.feature-list li {
-    margin-bottom: 10px;
-}
-
-/* Project Actions */
+/* Project Action Buttons */
 .project-actions {
     display: flex;
     gap: 15px;
-    margin-top: 20px;
+    margin: 20px 0;
+    flex-wrap: wrap;
 }
 
-.btn-demo,
-.btn-code {
-    display: inline-block;
-    padding: 8px 20px;
+.project-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
     border-radius: 4px;
     font-weight: 600;
     text-decoration: none;
-    transition: all 0.3s;
-}
-
-.btn-demo {
-    background-color: #007bff;
-    color: #fff;
-}
-
-.btn-code {
-    background-color: #f8f9fa;
-    color: #333;
-    border: 1px solid #ddd;
-}
-
-.btn-demo:hover {
-    background-color: #0069d9;
-}
-
-.btn-code:hover {
-    background-color: #e9ecef;
-}
-
-/* Carousel Styles */
-.project-carousel {
-    position: relative;
-    margin: 20px 0;
-}
-
-.carousel-container {
-    position: relative;
-    overflow: hidden;
-    border-radius: 6px;
-}
-
-.carousel-track {
-    display: flex;
-    transition: transform 0.5s ease;
-}
-
-.carousel-slide {
-    min-width: 100%;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.carousel-slide.active {
-    opacity: 1;
-    position: relative;
-}
-
-.carousel-slide img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 4px;
-}
-
-.slide-caption {
-    text-align: center;
-    padding: 10px 0;
-    font-style: italic;
-    color: #666;
-}
-
-.carousel-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(255, 255, 255, 0.7);
+    transition: all 0.3s ease;
     border: none;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
     cursor: pointer;
-    z-index: 10;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s;
-}
-
-.carousel-btn:hover {
-    background-color: rgba(255, 255, 255, 0.9);
-}
-
-.carousel-btn.prev {
-    left: 10px;
-}
-
-.carousel-btn.next {
-    right: 10px;
-}
-
-.carousel-dots {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
     gap: 8px;
 }
 
-.dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #ccc;
-    cursor: pointer;
-    transition: all 0.3s;
+.github-btn {
+    background-color: #24292e;
+    color: #fff;
 }
 
-.dot:hover {
-    background-color: #999;
+.github-btn:hover {
+    background-color: #2f363d;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.dot.active {
-    background-color: #007bff;
+.live-btn {
+    background-color: #0070f3;
+    color: #fff;
 }
 
+.live-btn:hover {
+    background-color: #0051cc;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-/*============ 7. Portfolio Section ============*/
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .project-actions {
+        flex-direction: column;
+        gap: 10px;
+    }
 
-
+    .project-btn {
+        width: 100%;
+    }
+}
 
 .portfolio-section {
     background-color: #FBFBFB;

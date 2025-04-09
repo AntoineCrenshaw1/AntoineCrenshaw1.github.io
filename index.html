@@ -471,135 +471,103 @@
         </section>
         <!--Resume Section End-->
 
-      <!--Porfolio Section Start-->
-      <section id="portfolio" class="portfolio-section pt-page">
-        <div class="section-container">
-          <!--Page Heading-->
-          <div class="page-heading">
-            <span class="icon"><i class="lnr lnr-briefcase"></i></span>
-            <h2>Portfolio.</h2>
-          </div>
-      
-          <div class="row">
-            <!--Portfolio Filter-->
-            <div class="col-md-12 portfolio-filter text-center">
-              <ul>
-                <li class="active" data-filter="*">All</li>
-                <li data-filter=".brand">Brand</li>
-                <li data-filter=".design">Design</li>
-                <li data-filter=".graphic">Graphic</li>
-              </ul>
+        <!--Porfolio Section Start-->
+        <section id="portfolio" class="portfolio-section pt-page">
+          <div class="section-container">
+            <!--Page Heading-->
+            <div class="page-heading">
+              <span class="icon"><i class="lnr lnr-briefcase"></i></span>
+              <h2>Portfolio.</h2>
+            </div>
+
+            <div class="row">
+              <!--Portfolio Filter-->
+              <div class="col-md-12 portfolio-filter text-center">
+                <ul>
+                  <li class="active" data-filter="*">All</li>
+                  <li data-filter=".brand">Brand</li>
+                  <li data-filter=".design">Design</li>
+                  <li data-filter=".graphic">Graphic</li>
+                </ul>
+              </div>
+            </div>
+
+            <!--Portfolio Items-->
+            <div class="row portfolio-items mb-50">
+              <!--Portfolio Item-->
+              <!--Remove image-link class when ready to link to live portfolio-->
+              <div class="item col-12 brand graphic">
+                <a class="image-link" href="img/portfolio/BugsScreen.png">
+                  <figure>
+                    <img src="img/portfolio/BugsScreen.png" alt="" />
+                    <figcaption>
+                      <h4>Issue Tracker</h4>
+                      <p>MERN Stack</p>
+                    </figcaption>
+                  </figure>
+                </a>
+
+                <!-- Tech Stack Badges -->
+                <div class="tech-stack">
+                  <span class="tech-badge">MongoDB</span>
+                  <span class="tech-badge">Express</span>
+                  <span class="tech-badge">React</span>
+                  <span class="tech-badge">Node.js</span>
+                  <!-- Add more tech badges as needed -->
+                </div>
+                
+                <!-- Project Action Buttons -->
+                <div class="project-actions">
+                  <a href="https://github.com/yourusername/your-repo" target="_blank" class="project-btn github-btn">
+                    <i class="fab fa-github"></i> View Source
+                  </a>
+                  <a href="https://your-live-site.com" target="_blank" class="project-btn live-btn">
+                    <i class="fas fa-external-link-alt"></i> Live Demo
+                  </a>
+                </div>
+                <!-- Added description box -->
+    <div class="project-description">
+      <div class="project-description">
+        <p>Developed an issue tracking application leveraging the MERN stack (MongoDB, Express.js, React, Node.js), enabling
+          efficient creation, tracking, and management of software project bugs and issues. This full-stack solution showcases
+          proficiency in React for dynamic front-end interfaces, Node.js for robust server-side logic, and MongoDB for
+          scalable data persistence. Overcoming challenges with Axios integration on both client and server sides, I
+          successfully delivered a streamlined CRUD (Create, Read, Update, Delete) application, enhancing my expertise in
+          end-to-end development and API-driven workflows.</p>
+      </div>
+    </div>
+              </div>
+
+              <!--Portfolio Item-->
+              <!-- <div class="item col-lg-4 col-sm-6 graphic">
+                <a class="image-link" href="img/portfolio/img-7.jpg">
+                  <figure>
+                    <img src="img/portfolio/img-7.jpg" alt="" />
+                    <figcaption>
+                      <h4>Notepad Design</h4>
+                      <p>graphic</p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div> -->
+
+              <!--Portfolio Item-->
+              <!-- <div class="item col-lg-4 col-sm-6 brand">
+                <a class="image-link" href="img/portfolio/img-8.jpg">
+                  <figure>
+                    <img src="img/portfolio/img-8.jpg" alt="" />
+                    <figcaption>
+                      <h4>Creative Flyer</h4>
+                      <p>Brand</p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div> -->
+
             </div>
           </div>
-      
-          <!--Portfolio Items-->
-          <div class="row portfolio-items mb-50">
-            <!--Enhanced Portfolio Item-->
-            <div class="item col-12 brand graphic">
-              <div class="project-card">
-                <!-- Project Header -->
-                <div class="project-header">
-                  <h3>Issue Tracker</h3>
-                  <div class="tech-stack">
-                    <span class="tech-badge">MongoDB</span>
-                    <span class="tech-badge">Express</span>
-                    <span class="tech-badge">React</span>
-                    <span class="tech-badge">Node.js</span>
-                  </div>
-                </div>
-      
-                <!-- Tabbed Interface -->
-                <div class="project-tabs">
-                  <ul class="tabs-nav">
-                    <li class="active" data-tab="overview">Overview</li>
-                    <li data-tab="features">Features</li>
-                    <li data-tab="implementation">Implementation</li>
-                    <li data-tab="gallery">Gallery</li>
-                  </ul>
-      
-                  <div class="tabs-content">
-                    <!-- Overview Tab -->
-                    <div id="overview" class="tab-content active">
-                      <p>Developed an issue tracking application leveraging the MERN stack (MongoDB, Express.js, React,
-                        Node.js), enabling
-                        efficient creation, tracking, and management of software project bugs and issues. This full-stack
-                        solution showcases
-                        proficiency in React for dynamic front-end interfaces, Node.js for robust server-side logic, and
-                        MongoDB for
-                        scalable data persistence.</p>
-      
-                      <!-- Call to Action Buttons -->
-                      <div class="project-actions">
-                        <a href="#" class="btn-demo">Live Demo</a>
-                        <a href="#" class="btn-code">View Code</a>
-                      </div>
-                    </div>
-      
-                    <!-- Features Tab -->
-                    <div id="features" class="tab-content">
-                      <ul class="feature-list">
-                        <li><strong>User Authentication:</strong> Secure login system with role-based access control</li>
-                        <li><strong>Issue Management:</strong> Create, assign, update, and resolve issues</li>
-                        <li><strong>Dashboard:</strong> Visual representation of project progress and issue status</li>
-                        <li><strong>Filtering &amp; Sorting:</strong> Organize issues by priority, status, and assignee</li>
-                        <li><strong>Notifications:</strong> Real-time updates for issue changes and mentions</li>
-                      </ul>
-                    </div>
-      
-                    <!-- Implementation Tab -->
-                    <div id="implementation" class="tab-content">
-                      <h4>Technical Approach</h4>
-                      <p>Implemented with the MERN stack architecture:</p>
-                      <ul>
-                        <li><strong>Frontend:</strong> React with Redux for state management and responsive design with CSS
-                          Grid and Flexbox</li>
-                        <li><strong>Backend:</strong> Node.js with Express for RESTful API endpoints and middleware
-                          integration</li>
-                        <li><strong>Database:</strong> MongoDB with Mongoose for document modeling and validation</li>
-                        <li><strong>Authentication:</strong> JWT-based auth flow with refresh tokens for enhanced security
-                        </li>
-                      </ul>
-                      <p>Overcame challenges with Axios integration on both client and server sides, successfully delivering a
-                        streamlined CRUD application.</p>
-                    </div>
-      
-                    <!-- Gallery Tab with Carousel -->
-                    <div id="gallery" class="tab-content">
-                      <div class="project-carousel">
-                        <div class="carousel-container">
-                          <div class="carousel-track">
-                            <div class="carousel-slide active">
-                              <img src="img/portfolio/BugsScreen.png" alt="Issue Tracker Dashboard" />
-                              <p class="slide-caption">Main dashboard view showing active issues</p>
-                            </div>
-                            <div class="carousel-slide">
-                              <img src="img/portfolio/NewBugScreen.png" alt="Issue Detail View" />
-                              <p class="slide-caption">Detailed view of bug creation</p>
-                            </div>
-                            <div class="carousel-slide">
-                              <img src="img/portfolio/UserListScreen.png" alt="Analytics Dashboard" />
-                              <p class="slide-caption">View displaying current users in database</p>
-                            </div>
-                          </div>
-                          <button class="carousel-btn prev"><i class="lnr lnr-chevron-left"></i></button>
-                          <button class="carousel-btn next"><i class="lnr lnr-chevron-right"></i></button>
-                          <div class="carousel-dots">
-                            <span class="dot active" data-slide="0"></span>
-                            <span class="dot" data-slide="1"></span>
-                            <span class="dot" data-slide="2"></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-      
-            <!-- Additional portfolio items would go here -->
-      
-          </div>
-        </div>
-      </section>
-      <!--Porfolio Section End-->
+        </section>
+        <!--Porfolio Section End-->
 
       
         <!--Contact Section Start-->
